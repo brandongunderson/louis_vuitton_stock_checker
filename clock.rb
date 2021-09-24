@@ -14,7 +14,7 @@ def check_stock
   ENV.slice(
     "DE_SKU_IDS", "DK_SKU_IDS", "LU_SKU_IDS", "BE_SKU_IDS", "IE_SKU_IDS",
     "MC_SKU_IDS", "NL_SKU_IDS", "AT_SKU_IDS", "FI_SKU_IDS", "SE_SKU_IDS",
-    "FR_SKU_IDS", "IT_SKU_IDS", "GB_SKU_IDS", "RU_SKU_IDS", "M44873",
+    "FR_SKU_IDS", "IT_SKU_IDS", "GB_SKU_IDS", "RU_SKU_IDS", "US_SKU_IDS",
     "BR_SKU_IDS", "CA_SKU_IDS", "NZ_SKU_IDS", "MY_SKU_IDS", "SG_SKU_IDS",
     "AU_SKU_IDS", "CN_SKU_IDS", "TW_SKU_IDS", "JP_SKU_IDS", "KR_SKU_IDS",
     "HK_SKU_IDS"
