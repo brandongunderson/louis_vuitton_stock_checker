@@ -132,7 +132,7 @@ module LouisVuitton
 
       $logger.info query.to_s
 
-      url = URI::HTTPS.build(host: 'api-tpc.louisvuitton.com', path: '/ajaxsecure/getStockLevel.jsp', query: URI.encode_www_form(query))
+      url = URI::HTTPS.build(host: 'secure.louisvuitton.com', path: '/ajaxsecure/getStockLevel.jsp', query: URI.encode_www_form(query))
       begin
         response = HTTParty.get(url, format: :json)
       rescue HTTParty::Error
